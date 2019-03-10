@@ -1,0 +1,191 @@
+@media(min-width:1366px){
+	html{
+	font-size: 20px;
+
+	}
+	
+	}
+
+
+@media(min-width:1025px){
+
+	.iconss{
+	display: none;
+	
+	
+	}
+
+
+
+}
+
+
+
+
+
+	
+	
+	
+	
+	@media(max-width:1024px){
+	.m-menu-link{
+	display: none;
+	
+	
+	
+	}
+		
+		
+		
+		
+		.price-tag{
+		width: 33%;
+		
+		
+		
+		}
+		
+		
+		
+		.price-tag img{
+		width: 100px;
+		
+		
+		
+		
+		}
+	
+	
+	
+	
+	}
+
+
+
+
+
+@media(max-width:991px){
+	html{
+	font-size: 12px;
+
+	}
+	
+	
+	
+	
+	.visible-lg{
+	display:none;
+	}
+
+	
+	
+	
+	.m-menu-link{
+	display: block;
+	color:#fff;
+	font-size:3rem;
+	}
+	
+	
+	
+	
+	.Get-started{
+margin: 0;
+
+}
+	
+	
+	
+	
+	.price-tags{
+	flex-direction: column;
+	
+	}
+	
+	
+	
+	
+	.price-tag{
+	margin: 2rem  auto;
+	width: 90%;
+	
+	}
+	
+	
+	
+	.price-tag img{
+	
+	width: 150px;
+	
+	
+	}
+	
+	
+	
+	
+	.footer{
+	justify-content: center;
+	width: 90%
+	}
+	
+	
+	
+	
+	.footer-menu{
+	display: none;
+	}
+	
+	
+	
+	
+
+	
+	
+	
+	.social a i {
+	font-size:4rem;
+	}
+	
+	
+	
+	
+	.legal{
+	flex-direction: column;
+	padding-bottom: 5rem;
+	}
+	
+	
+	
+	.menu-close{
+position: fixed;
+right: 10rem;
+top: 5rem	;
+margin: 0;
+font-size: 5rem;
+font-weight: 900;
+color:#fff;
+}
+
+
+
+
+.menu-close:hover{
+cursor: pointer;
+
+}
+
+	
+	
+	
+	
+	
+
+	
+
+
+
+
+
+
+
+

@@ -1,0 +1,403 @@
+@media screen and (max-width:1920px) {
+    .qualities-li li {
+        text-align: center;
+        list-style-position: inherit;
+    }
+    .knoweledge__main {
+        margin-left: -50px;
+    }
+    .arrow-footer {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    .arrow-footer {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1600px) {
+    .about__me p {
+        font-size: 25px;
+    }
+    .hamburger i {
+        font-size: 35px;
+        margin-top: -20px;
+        margin-right: -40px;
+    }
+    .helloo__header {
+        margin-left: -50px;
+        font-size: 140px;
+        margin-top: -20px
+    }
+    .hello__header__two {
+        font-size: 25px;
+        width: 200px;
+        margin-top: 39px;
+        margin-left: -10px
+    }
+    .about {
+        top: 10px;
+        width: 170px;
+        height: 70px;
+        left: 150px
+    }
+    .about__me p {
+        font-size: 17px;
+    }
+    .qualitiels li {
+        font-size: 17px;
+    }
+    .knoweledge__main {
+        margin-left: -50px;
+    }
+    .arrow-footer {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .hamburger i {
+        font-size: 35px;
+    }
+    .helloo__header {
+        margin-left: -75px;
+        font-size: 100px;
+        margin-top: -20px
+    }
+    .hello__header__two {
+        font-size: 20px;
+        width: 150px;
+        margin-top: 19px;
+        margin-left: -10px
+    }
+    .about {
+        top: 20px;
+        width: 150px;
+        height: 70px;
+        left: 0px;
+        font-size: 25px;
+    }
+    .ab {
+        font-size: 50px;
+    }
+    .photo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .photo img {
+        width: 250px;
+        height: 300px;
+        margin-right: -60px;
+    }
+    .about__me {
+        font-size: 12px;
+        margin-left: 60px;
+        width: 200px;
+    }
+    .about__me h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .social__me h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .social__me i {
+        font-size: 40px;
+    }
+    .qualitiels h4 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    .qualities-li li {
+        font-size: 12px;
+        margin-left: 10px
+    }
+    .contact {
+        padding-bottom: 200px;
+    }
+    .contact-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tel h4 {
+        text-align: center;
+    }
+    .knoweledge__main {
+        display: flex;
+        justify-content: space-around;
+        margin-left: -90px;
+    }
+    .arrow-footer {
+        display: none;
+    }
+    .bt {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tel {
+        padding-top: 110px;
+        margin-right: 50px
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .hamburger i {
+        font-size: 35px;
+    }
+    .helloo__header {
+        margin-left: -28px;
+        font-size: 100px;
+        margin-top: -20px
+    }
+    .hello__header__two {
+        font-size: 17px;
+        width: 150px;
+        margin-top: 19px;
+        margin-left: -20px
+    }
+    .about {
+        top: 20px;
+        width: 140px;
+        height: 50px;
+        left: 0px;
+        font-size: 20px;
+    }
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px
+    }
+    .photo img {
+        width: 250px;
+        height: 250px;
+    }
+    .about__me {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        padding-left: 20px
+    }
+    .social__me h4 {
+        text-align: center;
+    }
+    .icons {
+        padding-bottom: 20px
+    }
+    .icons i {
+        font-size: 40px;
+    }
+    .qualities-li li {
+        text-align: left;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .Knoweledges {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .knoweledge__main {
+        margin-left: -0px
+    }
+    .knoweledge__dz {
+        padding-left: 50px;
+    }
+    .knoweledge__en {
+        padding-left: 30px
+    }
+    .main__knoweledge__pg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tel {
+        text-align: center;
+    }
+    .copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bt {
+        padding-top: 20px;
+    }
+    .icon__footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 60px
+    }
+    .arrow-footer {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:319px) and (max-width:480px) {
+    .m-menu {
+        line-height: 2
+    }
+    .menu-link {
+        font-size: 50px;
+        text-align: center;
+    }
+    .menu-close {
+        top: -5%
+    }
+    .hamburger i {
+        font-size: 25px;
+    }
+    .helloo__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }
+    .hello__header__two {
+        font-size: 14px;
+        width: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid;
+        margin-left: -130px;
+        margin-top: 50px;
+        border-left: 0;
+        padding-left: 10px;
+        padding-top: -20px
+    }
+    .about {
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        left: 5px;
+        font-size: 16px;
+    }
+    .about__me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ab {
+        font-size: 50px;
+    }
+    .photo {
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .photo img {
+        width: 250px;
+        height: 250px;
+    }
+    .about__me {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .about__me h4 {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .social__me h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .social__me i {
+        font-size: 40px;
+        text-align: center;
+        margin-right: 30px
+    }
+    .qualitiels h4 {
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 20px;
+        padding-right: 30px
+    }
+    .qualities-li li {
+        font-size: 12px;
+        text-align: left;
+        padding-top: 20px
+    }
+    .Knoweledges {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .knoweledge__main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__knoweledge__pg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .knoweledge__dz {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .knoweledge__en {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bt {
+        padding-top: 20px
+    }
+    .contact {
+        padding-top: 70px
+    }
+    .copy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 50px;
+        padding-top: 20px
+    }
+    .main__knoweledge__pg h4 {
+        text-align: center;
+    }
+    #myBtn {
+        visibility: hidden;
+    }
+    .arrow-footer {
+        font-size: 50px;
+        right: 42%;
+        bottom: 65%;
+        position: absolute;
+        display: block;
+    }
+    .arrow-footer {
+        color: #333;
+    }
+    .menu-link {
+        font-size: 30px;
+    }
+    .menu-close {
+        font-size: 80px
+    }
+}

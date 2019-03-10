@@ -1,0 +1,190 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .top_phone {
+        position: absolute;
+        right: 0;
+    }
+    .main_header .navbar-collapse {
+        position: relative;
+    }
+    .main_header ul.navbar-nav {
+        margin-top: 25px;
+    }
+    .wg_item {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .navbar-brand img {
+        margin-top: 20px;
+        width: 30px;
+    }
+    .carousel-caption {
+        left: 8%;
+        right: 15%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    ul.navbar-nav a {
+        font-style: 13px;
+        padding: 7px;
+    }
+    .top_phone {
+        top: 5px;
+    }
+    .wg_item {
+        width: 100%;
+    }
+    .main_footer .col-sm-6 {
+        width: 50%;
+        text-align: center;
+    }
+    .main_footer .col-sm-6 {
+        margin-bottom: 20px;
+        min-height: 75px
+    }
+    .map {
+        margin-left: 60px;
+    }
+    .navbar-brand img {
+        margin-top: 15px;
+        width: 30px;
+    }
+    .carousel-caption {
+        left: 10%;
+        right: 15%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    ul.navbar-nav a {
+        font-style: 15px;
+        padding: 7px;
+    }
+    .top_phone {
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .carousel .item {
+        min-height: 550px;
+    }
+    .main_footer {
+        padding-top: 60px;
+    }
+    .main_footer .col-sm-6 {
+        width: 100%;
+        text-align: center;
+    }
+    .main_footer strong::before {
+        width: 2px;
+        content: "";
+        position: absolute;
+        height: 80%;
+        left: 26%;
+        top: 6px;
+        background-color: #fff;
+    }
+    .navbar-brand img {
+        margin-top: 5px;
+        width: 30px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .carousel-inner .h1 {
+        font-size: 1.7em;
+        line-height: 1.2;
+    }
+    .carousel-inner small {
+        font-size: .8em;
+        margin-top: 10px;
+    }
+    .carousel .item {
+        min-height: 350px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    .carousel-inner .h1 {
+        font-size: 1.7em;
+    }
+    .carousel-inner small {
+        font-size: .8em;
+    }
+    .carousel .item {
+        min-height: 350px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    .carousel-caption {
+        left: 8%;
+        right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .carousel-caption {
+        left: 11%;
+        right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .carousel-caption {
+        left: 15%;
+        right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .left_side {
+        left: -10%;
+    }
+    .carousel-caption {
+        left: 20%;
+        right: 15%;
+    }
+}

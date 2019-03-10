@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="main.css">
+  <title>Блог</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>
+   
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('.menu ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+ </head>
+ <body>
+ <div class="karkas">
+  <div class="header-main">
+   <div class="header-top">
+   <div class="header">
+    <a href="#" class="logo">Blog <sup>up</sup></a>
+    <div class="menu">
+    <ul>
+    <li><a href="#">Main</a></li>
+    <li><a href="#">Tutorial</a></li>
+    <li><a href="#">Design</a></li>
+    <li><a href="#">Web design</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Others</a></li>
+    
+    </ul>
+     <a href="#" id="pull">Menu</a>
+    </div>
+   </div>
+   
+  </div>
+  </div>
+
+
+  <div class="main-content">
+   
+  	<div class="content">
+  	
+  		<div class="post-main">
+  			<div class="post-img">
+  				<img src="image/content-image-1.jpg" alt="picture" width="610px" height="300px">
+  				<div class="social-network">
+  				<a href=""><img src="image/facebook-logo.svg" alt="facebook">	</a>
+  				<a href=""><img src="image/twitter-logo.svg" alt="twitter"></a>
+  				</div>
+  			</div>
+  			
+  			<div class="post-content">
+  				
+  			<div class="post-trg"></div>
+  			
+  		
+  			<div class="post-head">
+  			<h1><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h1>
+  			<p>19th April 2018</p>
+  			<h2>go to post</h2>
+  			</div>
+  			
+  			<div class="post">
+  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores harum perferendis, quisquam nemo veniam, est reiciendis nihil id? Asperiores modi molestiae dolore sint eligendi hic, maxime nisi aut fugiat ad.</p>
+  			</div>
+  			</div>
+  			</div>
+  			
+  			<div class="post-main">
+  			<div class="post-img">
+  				<img src="image/content-image-2.jpg" alt="picture" width="610px" height="300px">
+  				<div class="social-network">
+  				<a href=""><img src="image/facebook-logo.svg" alt="facebook">	</a>
+  				<a href=""><img src="image/twitter-logo.svg" alt="twitter"></a>
+  				</div>
+  			</div>
+  			
+  			<div class="post-content">
+  				
+  			<div class="post-trg"></div>
+  			
+  		
+  			<div class="post-head">
+  			<h1><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h1>
+  			<p>19th April 2018</p>
+  			<h2>go to post</h2>
+  			</div>
+  			<div class="post">
+  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores harum perferendis, quisquam nemo veniam, est reiciendis nihil id? Asperiores modi molestiae dolore sint eligendi hic, maxime nisi aut fugiat ad.</p>
+  			</div>
+  			</div>
+  			</div>
+  			<div class="post-main">
+  			<div class="post-img">
+  				<img src="image/content-image-3.jpg" alt="picture" width="610px" height="300px">
+  				<div class="social-network">
+  				<a href=""><img src="image/facebook-logo.svg" alt="facebook">	</a>
+  				<a href=""><img src="image/twitter-logo.svg" alt="twitter"></a>
+  				</div>
+  			</div>
+  			
+  			<div class="post-content">
+  				
+  			<div class="post-trg"></div>
+  			
+  		
+  			<div class="post-head">
+  			<h1><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h1>
+  			<p>19th April 2018</p>
+  			<h2>go to post</h2>
+  			</div>
+  			<div class="post">
+  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores harum perferendis, quisquam nemo veniam, est reiciendis nihil id? Asperiores modi molestiae dolore sint eligendi hic, maxime nisi aut fugiat ad.</p>
+  			</div>
+  			</div>
+  			</div>
+  			<ul class="pager">
+  			<li><a href="#">1</a></li>
+  			<li><a href="#">2</a></li>
+  			<li><a href="#">3</a></li>
+  			<li><a href="#">4</a></li>
+  			<li><a href="#">5</a></li>	
+  				
+  				
+  				
+  			</ul>
+  		
+  			
+  		</div>
+  		
+  		<div class="sidebar-main">
+  			<div class="sidebar">
+  			<div class="vidget">
+  				<h2>Category</h2>
+  				<ul>
+  				<li><a href="#">Blog Category 1 (5)</a></li>
+  				<li><a href="#">Blog Category 2 (8)</a></li>
+  				<li><a href="#">Blog Category 3 (9)</a></li>
+  				<li><a href="#">Blog Category 4 (6)</a></li>
+  				<li><a href="#">Blog Category 5(34)</a></li>
+  				<li><a href="#">Blog Category 6 (15)</a></li>
+  				</ul>
+  			</div>
+  			<div class="vidget">
+  				<h2>Archives</h2>
+  				<ul>
+  				<li><a href="#">January(6)</a></li>
+  				<li><a href="#">February(8)</a></li>
+  				<li><a href="#">March(10)</a></li>
+  				<li><a href="#">April(13)</a></li>
+  				<li><a href="#">May(23)</a></li>
+  				<li><a href="#">June(17)</a></li>
+  				</ul>
+  			</div>
+  			<div class="vidget">
+  				<h2>Resent Post</h2>
+  				<div class="recent-post">
+  				<p><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ad, omnis a, ipsum blanditiis laboriosam.</a></p>
+  				<span> 20 August 2018</span>
+  				
+  				<p><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ad, omnis a, ipsum blanditiis laboriosam.</a></p>
+  				<span> 20 August 2018</span>
+  				
+  				
+  				<p><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ad, omnis a, ipsum blanditiis laboriosam.</a></p>
+  				<span> 20 August 2018</span>
+  				</div>
+  			</div>
+  			</div>
+  			<div class="reklama">
+  				
+  				<a href="#"><img src="image/reklama.jpg" alt="reklama"></a>
+  				
+  				
+  			</div>
+</div>	
+  		</div>	
+  		
+  		
+
+
+
+<div class="footer">
+<div class="footer-main">
+	<div class="footer-right">
+		<a href="#"><img src="image/twitter-logo.svg" alt="" width="50px" height="50px"></a>
+		<a href="#"><img src="image/facebook-logo.svg" alt="" width="50px" height="50px"></a>
+		<a href="#"><img src="image/telegram.svg" alt="" width="50px" height="50px"></a>
+	</div>
+	<div class="footer-left">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellendus temporibus fuga, ab tenetur ratione repellat nesciunt? Culpa, expedita, velit.</p>
+		<p class="copy">Andrew Tour 2018 for Portfolio</p>
+	</div>
+	
+	
+</div>	
+	
+	
+</div>	
+</div>
+ </body>
+ 
+</html>

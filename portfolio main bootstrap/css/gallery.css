@@ -1,0 +1,369 @@
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+
+/* Add padding BETWEEN each column (if you want) */
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    max-width: 33.33%;
+    display: none;
+    /* Hide columns by default */
+}
+
+
+/* Clear floats after rows */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Content */
+
+.content {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-top: -40px;
+    color: #030303;
+}
+
+.content:hover {
+    background-color: rgb(164, 164, 164);
+    opacity: 0.9
+}
+
+.content h4 {
+    color: #030303;
+}
+
+.content p {
+    color: #030303;
+}
+
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+    display: block;
+}
+
+#myBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+
+
+/* Style the buttons */
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 20px 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.column {
+    margin-bottom: 20px;
+}
+
+
+/* Add a grey background color on mouse-over */
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+
+/* Add a dark background color to the active button */
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+@media only screen and (width:1920px) and (height:876px) {
+    #myBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+    }
+    .btn {
+        width: 200px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        margin-left: -50px;
+    }
+    .column {
+        padding-top: 30px;
+    }
+    .content {
+        width: 300px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1601px) and (max-width:1920px) {
+    #myBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .btn {
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        margin-left: -50px;
+    }
+    .column {
+        width: 85%;
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+    .content {
+        width: 350px;
+        height: 350px;
+        text-align: center;
+    }
+    .content h4 {
+        padding-top: 20px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #030303;
+    }
+    .content p {
+        font-size: 20px;
+        color: #030303;
+    }
+}
+
+@media only screen and (min-width:1241px) and (max-width:1600px) {
+    #myBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+        padding-bottom: 40px;
+    }
+    .btn {
+        width: 200px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        margin-left: -50px;
+    }
+    .column {
+        width: 30%;
+        padding-top: 30px;
+    }
+    .content {
+        width: 300px;
+        text-align: center;
+        display: flex;
+        flex-basis: 25%;
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width:1240px) {
+    #myBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .btn {
+        width: 200px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        margin-left: -140px;
+    }
+    .column {
+        width: 25%;
+        padding-top: 30px;
+        margin-left: 55px;
+    }
+    .content {
+        width: 300px;
+        text-align: center;
+        display: flex;
+        flex-basis: 25%;
+    }
+    .content h4 {
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .content p {
+        font-size: 20px
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width:990px) {
+    #myBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        padding-bottom: 20px
+    }
+    .btn {
+        width: 200px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        margin-left: -50px;
+    }
+    .column {
+        min-width: 40%;
+        padding-top: 40px;
+        margin-left: 40px;
+    }
+    .content {
+        width: 300px;
+        text-align: center;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:800px) {
+    #myBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 26px;
+    }
+    .btn {
+        width: 150px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        margin-left: 150px;
+    }
+    .column {
+        min-width: 100%;
+        padding-top: 60px;
+    }
+    .content {
+        width: 300px;
+        text-align: center;
+        display: flex;
+    }
+    .content h4 {
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .content p {
+        font-size: 20px
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    #myBtnContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px
+    }
+    .btn {
+        width: 200px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        margin-left: -10px;
+    }
+    .column {
+        min-width: 100%;
+        padding-top: 30px;
+    }
+    .content {
+        display: flex;
+        flex-basis: 25%;
+    }
+}

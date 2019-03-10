@@ -1,0 +1,14 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.hover.enabled": false,
+    "git.ignoreLimitWarning": true,
+    "workbench.editor.tabSizing": "shrink",
+    "editor.glyphMargin": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    },
+    "editor.smoothScrolling": true
+  }
+

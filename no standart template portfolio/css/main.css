@@ -1,0 +1,547 @@
+/* Font connection */
+
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*Specification*/
+
+
+body{
+	
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 12px;
+color: #0001c5;
+letter-spacing: 0.06em;
+}
+
+
+
+
+div,p,span,input,button,a{
+box-sizing: border-box;
+}
+
+
+
+
+p{
+line-height: 1.6em;
+
+}
+
+
+
+
+.jpg-font{
+ font-family: 'Jaapokkisubtract';
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Jaapokkisubtract';
+letter-spacing: 0.14em;
+font-weight: normal;
+line-height: 1.1em;
+}
+
+
+
+
+h2{
+letter-spacing: 0.04em;
+margin: 0;
+
+}
+
+
+
+
+h3{
+letter-spacing:0.03em;
+
+}
+
+
+/*Main page*/
+
+.container{
+margin: 0 7%;
+position: relative;
+
+}
+
+
+
+
+.header{
+	background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom / cover;
+ color: #fff;
+ height:100vh;
+ box-shadow: 0px 40px 190px rgba(33,40,99,0.5);
+
+}
+
+
+
+
+.header .container{
+height: 100vh;
+
+
+}
+
+
+
+
+.logo{
+background: #fff;
+width: 48px;
+height: 48px;
+color: #0000a0;
+text-align: center;
+text-transform: uppercase;
+line-height: 48px;
+display: block;
+text-decoration: none;
+transition: all 0.3s ease;
+position: absolute;
+top:9%;
+}
+
+
+
+
+.logo:hover{
+
+border-radius:8px; 
+
+}
+
+
+
+
+.helloo{
+background: #fff;
+font-size: 20px;
+color: #0304b9;
+height: 184px;
+width: 42px;
+padding: 10px 15px;
+position: absolute;
+left:61%;
+top: 0;
+line-height: 1.7em;
+
+}
+
+
+
+
+.hamburger{
+width: 40px;
+position: absolute;
+right: 0;
+top:9%;
+cursor: pointer;
+float: right;
+
+}
+
+
+
+
+.hamburger span{
+background: #fff;
+display: block;
+height: 2px;
+margin-bottom: 6px;
+float: right;
+width: 100%;
+
+
+}
+
+
+
+
+.hamburger span:nth-child(1){
+
+}
+
+
+
+
+.hamburger span:nth-child(2){
+width: 75%;
+
+}
+
+
+
+
+.hamburger span:nth-child(3){
+width: 50%;
+
+}
+
+
+
+
+.hamburger:hover span{
+
+float: left;
+
+}
+
+
+
+
+.btn{
+font-family: 'Jaapokkisubtract';
+	font-size: 20px;
+	color: #fff;
+	background: transparent;
+	border: 3px solid #fff;
+cursor: pointer;
+padding: 17px 0;
+width: 217px;
+}
+
+
+
+
+.btn:hover{
+background: #fff;
+color: #0001e5;
+transition: all 0.3s ease;
+
+}
+
+
+
+
+.offer{
+position: absolute;
+left: 0;
+top: 50%;
+margin-top: -290px;
+
+
+}
+
+
+
+
+.offer__bg{
+font-size: 300px;
+color: #1b1cc4;
+position: absolute;
+}
+
+
+
+
+.offer__title{
+font-size: 55px;
+position: relative;
+width: 541px;
+top: 28px;
+right: -180px;
+
+}
+
+
+
+
+.offer__title::after{
+content:'';
+display: block;
+background: #fff;
+height: 5px;
+width: 29px;
+position: absolute;
+right: 180px;
+top: -20px;
+}
+
+
+
+
+.offer__text{
+font-size: 17px;
+	width: 337px;
+margin-top: 90px;
+margin-left:195px
+}
+
+
+
+
+.offer__btn{
+margin-left: 350px;
+margin-top: 20px;
+
+}
+
+
+
+
+.next{
+font-size: 300px;
+width: 363px;
+position: absolute;
+top: 50%;
+left: 65%;
+margin-right: 80px;
+line-height: 0;
+margin-top: -179px;
+text-shadow: 15px 20px 0 #0309a1
+}
+
+
+
+
+.next span{
+margin-right: -90px;
+line-height: 0.8em;
+
+}
+
+
+
+
+.next span:nth-child(2){
+color: #0048ff;
+
+}
+
+
+
+
+.scroll{
+display: block;
+font-size: 22px;
+border-right: 3px solid;
+height: 135px;
+padding-right: 40px;
+padding-top: 20px;
+color: #fff;
+width: 100px;
+text-decoration: none;
+position: absolute;
+right: 5%;
+bottom: 0;
+transition: all 0.3s ease;
+
+}
+
+
+
+
+.scroll:hover{
+
+background: #fff;
+color: #0000a0;
+
+}
+
+/*Services*/
+
+.services{
+padding-top: 160px;
+}
+
+
+
+
+.section-title{
+
+}
+
+
+
+
+.section_title_intro{
+font-family: 'Jaapokkisubtract';
+	color:#a8a8e4;
+	font-size: 23px;
+	margin: 0;
+}
+
+
+
+
+.section_title_title{
+
+font-size: 85px;
+margin-left: 50px;
+position: relative;
+}
+
+
+
+
+.section_title_title::after{
+content: '';
+display: inline-block;
+background: #1e1fe0;
+width: 39px;
+height: 4px;
+	margin-bottom: -15px;
+
+}
+
+
+
+
+.service{
+display: flex;
+justify-content: space-between;
+margin-top: 120px;
+}
+
+
+
+
+.service__item{
+width: 20%;
+border: 4px solid #0001e5;
+display: block;
+padding-left: 53px;
+padding-top: 60px;
+padding-bottom: 120px;
+	position: relative;
+}
+
+
+
+
+.service__icon{
+font-size: 40px;
+margin-bottom: 40px;
+display: block;
+}
+
+
+
+
+.service__title{
+font-size: 26px;
+}
+
+
+
+
+.service__more{
+font-size: 31px;
+	width: 37px;
+	height: 35px;
+	background: #0001e5;
+	color: #fff;
+	display: block;
+ text-align: center;
+	cursor: pointer;
+position: absolute;
+	right: 0;
+	bottom: 0;
+
+}
+
+
+
+
+.service__index{
+font-family: 'Jaapokkisubtract';
+position: absolute;
+font-size: 23px;
+color: #a8a8e4;
+top:30px;
+left: -55px;
+transition: all 0.3 ease;
+}
+
+
+
+
+.service__item:hover{
+background: #0001e5;
+color: #fff;
+box-shadow: 12px 12px 65px rgba(0,0,197,0.45);
+}
+
+
+
+
+/*footer*/
+
+.footer{
+background: #ededf8;
+padding: 160px 0;
+
+}
+
+
+
+
+.credits{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+
+
+.credits__logo{
+color: #fff;
+background: #0001e5;
+position: relative;
+top: auto;
+}
+
+
+
+
+.credits__btn{
+color: #0001e5;
+border: 3px solid #0001e5;
+font-size: 17px;
+padding: 13px 0;
+width: 172px;
+	
+}
+
+
+
+
+.cretits__up a{
+text-decoration: none;
+
+}
+
+
+
+
+.cretits__up i{
+font-size: 20px;
+color: #0309a1
+
+}
+
+
+
+
+
+
+
